@@ -407,6 +407,10 @@ H1 {
     color: #878787;
 }
 
+.schedule-title + .schedule-professor {
+    color: black;
+}
+
 .schedule-talk:hover .schedule-time {
     color: #01ECFF;
 }
