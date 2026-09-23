@@ -270,33 +270,63 @@ H1 {
 }
 
 .curso {
-    margin: 20px 0;
-    border-radius: 8px;
+    margin: 16px 0;
+    padding: 20px 26px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    transition: transform .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .curso:hover {
     background-color: #FFFFFF;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
 }
 
 .title {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 24px;
     font-weight: bold;
     color: var(--main-ev-color);
 }
 
+.speaker-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1D1D1B;
+    margin-top: 8px;
+}
+
 .professor {
-    font-size: 18px;
+    font-size: 14px;
     color: #878787;
-    margin-top: 4px;
+    margin-top: 2px;
+}
+
+.time-pill {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 3px 14px;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+    color: var(--main-ev-color);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .02em;
 }
 
 .curso:hover .title {
     color: #464646;
 }
 
-.curso:hover .professor {
+.curso:hover .speaker-name {
+    color: var(--main-ev-color);
+}
 
+.curso:hover .time-pill {
+    background-color: var(--main-ev-color);
+    color: #FFFFFF;
 }
 
 .curso:hover .schedule-circle {
@@ -328,6 +358,25 @@ H1 {
 }
 
 #schedule h1 {
+    color: #000000;
+}
+
+#platicas {
+    padding: 70px 0;
+    background-color: #F4F4F4;
+    color: #1D1D1B;
+}
+
+#platicas h1 {
+    color: #000000;
+}
+
+#talleres {
+    padding: 70px 0;
+    background-color: #FFFFFF;
+}
+
+#talleres h1 {
     color: #000000;
 }
 
